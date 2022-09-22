@@ -1,6 +1,6 @@
 package africa.semicolon.lumexpress.data.models;
 
-public class User {
+public class LumExpressUser {
     private String firstName;
     private String lastName;
     private String email;

@@ -14,5 +14,6 @@ public class Admin {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @ElementCollection
     private Set<Authority> authorities;
 }

@@ -18,7 +18,7 @@ public class Buyer extends LumExpressUser {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @OneToOne(fetch = FetchType.EAGER)
+    @OneToOne
     private Cart cart;
 
     @OneToMany(fetch = FetchType.EAGER)

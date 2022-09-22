@@ -9,7 +9,7 @@ import java.util.Set;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class Admin {
+public class Admin extends LumExpressUser{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

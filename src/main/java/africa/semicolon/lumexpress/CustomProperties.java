@@ -11,9 +11,9 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties(prefix = "com.cloudinary")
 public class CustomProperties {
 
-    String cloud_name;
-    String api_key;
-    String api_secret;
+    private String cloud_name;
+    private String api_key;
+    private String api_secret;
 
 }
 
